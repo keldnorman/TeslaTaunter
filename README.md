@@ -129,3 +129,5 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 
 ![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter2.jpg)
 
+### Also checkout the Evil Crow V2 from Rabbit Labs: 
+![Evil Crow V2 from Rabbit Labs](https://rabbit-labs.com/product/evil-crow-rf-v2/)
