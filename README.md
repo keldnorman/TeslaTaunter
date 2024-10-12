@@ -3,6 +3,8 @@
 
 ![Screenshot of my Tesla Taunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter3.jpg)
 
+Find the Arduino code in the tesla_taunte.ino file ( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/tesla_taunter.ino] )
+
 ### Disclaimer:
 
 _Building or using a device designed to open Tesla charge port doors via radio waves, especially one that includes a signal booster, may violate federal, state, and local laws and regulations. Such devices can interfere with wireless communications and electronic systems, leading to legal consequences under laws governing radio frequency emissions and interference._
