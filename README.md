@@ -1,9 +1,9 @@
 # TeslaTaunter
 ## ESP32 + CC1101 device that constantly opens a tesla charging port.
 
-![Screenshot of my Tesla Taunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter3.jpg)
+![Screenshot of my Tesla Taunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter3.jpg)
 
-Find the Arduino code in the tesla_taunte.ino file ( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/tesla_taunter.ino] )
+Find the Arduino code in the tesla_taunte.ino file ( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//tesla_taunter.ino] )
 
 ### Disclaimer:
 
@@ -98,9 +98,9 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 // On ARduino pin [17] | 27 / GPIO17 solder a 220 Ohm resister to a LED and then from the LED to GROUND.
 //
 ```
-![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/tesla_taunter_diagram.png)
+![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//tesla_taunter_diagram.png)
 
-![CC1101 Diagram](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/cc1101_8_pin.png)
+![CC1101 Diagram](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//cc1101_8_pin.png)
 
 
 # Setup Arduino before compiling:
@@ -127,9 +127,9 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 
 # Extra images of my Tesla Taunter
 
-![Tesla Taunter inside 1](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter1.jpg)
+![Tesla Taunter inside 1](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//taunter1.jpg)
 
-![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter2.jpg)
+![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//taunter2.jpg)
 
 ### Also checkout the Evil Crow V2 from Rabbit Labs: 
-![Evil Crow V2 from Rabbit Labs](https://rabbit-labs.com/product/evil-crow-rf-v2/)
+https://rabbit-labs.com/product/evil-crow-rf-v2/
