@@ -1,6 +1,8 @@
 # TeslaTaunter
 ## ESP32 + CC1101 device that constantly opens a tesla charging port.
 
+![Screenshot of my Tesla Taunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter3.jpg)
+
 ### Disclaimer:
 
 _Building or using a device designed to open Tesla charge port doors via radio waves, especially one that includes a signal booster, may violate federal, state, and local laws and regulations. Such devices can interfere with wireless communications and electronic systems, leading to legal consequences under laws governing radio frequency emissions and interference._
@@ -14,6 +16,10 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 - ESP32-DevKitC core board ESP32 V4 development board ESP32-WROOM-32D/U  ( Model D has a build in Antenna for Wifi if you want to add functionality like remote controle ) 
 - CC1101 Wireless Module With SMA Antenna Wireless Transceiver Module For 315/433/868/915MHz  ( EU uses 433 MHz and US 315 Mhz but the cc1101 can transmit on both frequencies)
 
+### Optional: 
+ - 10M-6GHz RF Gain Amplifier either 10, 20DB, 30DB or 40DB High Flatness RF Power Amplifier Drive Signal Receiver Transmitter AM FM VHF UHF Radio
+ - 5W 10W SMA Dummy load Connector 50ohm DC-3GHZ 6G RF Coaxial Load
+  
 ```
 // Microcontroller: ESP32-DevKitC core board ESP32 V4 development board ESP32-WROOM-32D/U
 //
@@ -90,6 +96,10 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 // On ARduino pin [17] | 27 / GPIO17 solder a 220 Ohm resister to a LED and then from the LED to GROUND.
 //
 ```
+![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/tesla_taunter_diagram.png)
+
+![CC1101 Diagram](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/cc1101_8_pin.png)
+
 
 # Setup Arduino before compiling:
 ```
@@ -112,3 +122,10 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 
 8. Select Sketch - Upload
 ```
+
+# Extra images of my Tesla Taunter
+
+![Tesla Taunter inside 1](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter1.jpg)
+
+![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/taunter2.jpg)
+
