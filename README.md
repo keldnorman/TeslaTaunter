@@ -1,9 +1,12 @@
 # TeslaTaunter
-## ESP32 + CC1101 device that constantly opens a tesla charging port.
+## ESP32 + CC1101 device that constantly opens a Tesla charging port.
 
 ![Screenshot of my Tesla Taunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter3.jpg)
 
-Find the Arduino code in the tesla_taunte.ino file ( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//tesla_taunter.ino] )
+Find the Arduino code in the tesla_taunte.ino file 
+( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//tesla_taunter.ino] )
+
+![Tesla Charging Cap Opening](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_open_charging_port.gif)
 
 ### Disclaimer:
 
@@ -15,11 +18,11 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 
 ## I ordered this on Aliexpress.com:
 
-- ESP32-DevKitC core board ESP32 V4 development board ESP32-WROOM-32D/U  ( Model D has a build in Antenna for Wifi if you want to add functionality like remote controle ) 
+- ESP32-DevKitC core board ESP32 V4 development board ESP32-WROOM-32D/U  ( Model D has a build-in Antenna for Wifi if you want to add functionality like remote control ) 
 - CC1101 Wireless Module With SMA Antenna Wireless Transceiver Module For 315/433/868/915MHz  ( EU uses 433 MHz and US 315 Mhz but the cc1101 can transmit on both frequencies)
 
 ### Optional: 
- - 10M-6GHz RF Gain Amplifier either 10, 20DB, 30DB or 40DB High Flatness RF Power Amplifier Drive Signal Receiver Transmitter AM FM VHF UHF Radio
+ - 10M-6GHz RF Gain Amplifier either 10dB, 20dB, 30dB or 40dB High Flatness RF Power Amplifier Drive Signal Receiver Transmitter AM FM VHF UHF Radio
  - 5W 10W SMA Dummy load Connector 50ohm DC-3GHZ 6G RF Coaxial Load
   
 ```
@@ -98,7 +101,7 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 // On ARduino pin [17] | 27 / GPIO17 solder a 220 Ohm resister to a LED and then from the LED to GROUND.
 //
 ```
-![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//tesla_taunter_diagram.png)
+![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_taunter_diagram.png)
 
 ![CC1101 Diagram](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//cc1101_8_pin.png)
 
@@ -111,7 +114,7 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 2. Tools -> Manage Libraries -> Search for "elechouse"
    and install SmartRC-CC1101-Driver-Lib by LSatan ( 2.5.7 or newer)
 
-3. Tools -> Board MAnager -> Search for esp32 ->
+3. Tools -> Board Manager -> Search for esp32 ->
    Install esp32 by Espressif Systems (3.0.5 or newer)
 
 4. Tools -> Select esp32 -> ESP32 Dev Module
