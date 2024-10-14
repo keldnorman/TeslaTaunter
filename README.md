@@ -1,5 +1,5 @@
 # TeslaTaunter
-## ESP32 + CC1101 device that constantly opens a Tesla charging port.
+## ESP32 + CC1101 device that constantly opens a Tesla charging port ( when the car is parked )
 
 ![Screenshot of my Tesla Taunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter3.jpg)
 
