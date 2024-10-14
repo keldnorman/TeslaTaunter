@@ -5,7 +5,7 @@
 
 Find the Arduino code in the tesla_taunte.ino file
 
-( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_taunter.ino] )
+( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/tesla_taunter.ino] )
 
 ![Tesla Charging Cap Opening](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_open_charging_port.gif)
 
