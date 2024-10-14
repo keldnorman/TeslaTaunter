@@ -5,7 +5,7 @@
 
 Find the Arduino code in the tesla_taunte.ino file
 
-( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//tesla_taunter.ino] )
+( or here: [https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_taunter.ino] )
 
 ![Tesla Charging Cap Opening](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_open_charging_port.gif)
 
@@ -104,7 +104,7 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 ```
 ![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_taunter_diagram.png)
 
-![CC1101 Diagram](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//cc1101_8_pin.png)
+![CC1101 Diagram](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/cc1101_8_pin.png)
 
 
 # Setup Arduino before compiling:
@@ -131,9 +131,9 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 
 # Extra images of my Tesla Taunter
 
-![Tesla Taunter inside 1](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//taunter1.jpg)
+![Tesla Taunter inside 1](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter1.jpg)
 
-![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images//taunter2.jpg)
+![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter2.jpg)
 
 ### Also checkout the Evil Crow V2 from Rabbit Labs: 
 https://rabbit-labs.com/product/evil-crow-rf-v2/
