@@ -99,7 +99,7 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 //
 // Light emitter diode
 // ------------------------------------
-// On ARduino pin [17] | 27 / GPIO17 solder a 220 Ohm resister to a LED and then from the LED to GROUND.
+// On ARduino pin [17] | 27 / GPIO17 solder a 220 Ohm resistor to a LED and then from the LED to GROUND.
 //
 ```
 ![Diagram for the TeslaTaunter](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/tesla_taunter_diagram.png)
