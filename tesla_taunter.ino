@@ -173,7 +173,7 @@ void loop() {
     delay(messageDistance);
   }
   ELECHOUSE_cc1101.SpiStrobe(CC1101_SIDLE);          // Stop TX mode
-  digitalWrite(LED_PIN, LOW);                        // Turn iff LED
+  digitalWrite(LED_PIN, LOW);                        // Turn off LED
   Serial.println(F("[+] Transmission completed"));
   // 315.00 Mhz
   ELECHOUSE_cc1101.setMHZ(315.00);                   // Set frequency to 315.00 MHz
@@ -185,7 +185,7 @@ void loop() {
     delay(messageDistance);
   }
   ELECHOUSE_cc1101.SpiStrobe(CC1101_SIDLE);          // Stop TX mode
-  digitalWrite(LED_PIN, LOW);                        // Turn iff LED
+  digitalWrite(LED_PIN, LOW);                        // Turn off LED
   Serial.println(F("[+] Transmission completed"));
   delay(1000);                                       // Sleep for 1 Second
 }
