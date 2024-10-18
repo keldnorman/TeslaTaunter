@@ -98,6 +98,8 @@
 //-------------------------------------------------------------------------------
 // Define signal to transmit
 //-------------------------------------------------------------------------------
+bool transmit_433_mhz = true;                        // Transmit the signal on 433 MHz
+bool transmit_315_mhz = false;                       // Transmit the signal on 315 MHz
 const uint16_t pulseWidth = 400;                     // Mikroseconds
 const uint16_t messageDistance = 23;                 // Milliseconds
 const uint8_t transmissions = 5;                     // Repeat 5 tinmes
@@ -163,6 +165,7 @@ void sendByte(uint8_t dataByte) {
 // Loop
 //-------------------------------------------------------------------------------
 void loop() {
+ if (transmit_433_mhz) {
   // 433.92 MHz
   ELECHOUSE_cc1101.setMHZ(433.92);                   // Set frequency to 433.92 MHz
   Serial.println(F("[+] Transmitting 433.92 MHz"));
@@ -173,9 +176,11 @@ void loop() {
     delay(messageDistance);
   }
   ELECHOUSE_cc1101.SpiStrobe(CC1101_SIDLE);          // Stop TX mode
-  digitalWrite(LED_PIN, LOW);                        // Turn off LED
+  digitalWrite(LED_PIN, LOW);                        // Turn Off LED
   Serial.println(F("[+] Transmission completed"));
-  // 315.00 Mhz
+ }
+
+ if (transmit_315_mhz) {
   ELECHOUSE_cc1101.setMHZ(315.00);                   // Set frequency to 315.00 MHz
   Serial.println(F("[+] Transmitting 315.00 MHz"));
   digitalWrite(LED_PIN, HIGH);                       // Turn on LED
@@ -185,7 +190,8 @@ void loop() {
     delay(messageDistance);
   }
   ELECHOUSE_cc1101.SpiStrobe(CC1101_SIDLE);          // Stop TX mode
-  digitalWrite(LED_PIN, LOW);                        // Turn off LED
+  digitalWrite(LED_PIN, LOW);                        // Turn Off LED
   Serial.println(F("[+] Transmission completed"));
-  delay(1000);                                       // Sleep for 1 Second
+ }
+ delay(800);                                       // Sleep for 1 Second
 }
