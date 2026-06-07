@@ -133,6 +133,11 @@ _By proceeding, you acknowledge that you are solely responsible for complying wi
 
 ![Tesla Taunter inside 1](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter1.jpg)
 
+## Buy me a cup of coffee ?
+
+If you like this project and wants to give me a cup of coffee:
+https://buymeacoffee.com/keldnormanh
+
 ![Tesla Taunter inside 2](https://raw.githubusercontent.com/keldnorman/TeslaTaunter/refs/heads/main/images/taunter2.jpg)
 
 ### Also checkout the Evil Crow V2 from Rabbit Labs: 
